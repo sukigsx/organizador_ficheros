@@ -32,8 +32,8 @@ fi
 
 #actualizar el script
 actualizar_script(){
-archivo_local="alias_bashrc.sh" # Nombre del archivo local
-ruta_repositorio="https://github.com/sukigsx/alias_bashrc.git" #ruta del repositorio para actualizar y clonar con git clone
+archivo_local="organizador_ficheros.sh" # Nombre del archivo local
+ruta_repositorio="https://github.com/sukigsx/organizador_ficheros.git" #ruta del repositorio para actualizar y clonar con git clone
 
 # Obtener la ruta del script
 descarga=$(dirname "$(readlink -f "$0")")
@@ -73,7 +73,7 @@ software_necesario(){
 echo ""
 echo -e " Comprobando el software necesario."
 echo ""
-software="which git diff ping figlet xdotool wmctrl nano fzf" #ponemos el foftware a instalar separado por espacion dentro de las comillas ( soft1 soft2 soft3 etc )
+software="which git diff ping figlet xdotool wmctrl" #ponemos el foftware a instalar separado por espacion dentro de las comillas ( soft1 soft2 soft3 etc )
 for paquete in $software
 do
 which $paquete 2>/dev/null 1>/dev/null 0>/dev/null #comprueba si esta el programa llamado programa
@@ -125,10 +125,10 @@ sleep 2
 wmctrl -r :ACTIVE: -b add,maximized_vert,maximized_horz
 echo -e "${rosa}"; figlet -c sukigsx; echo -e "${borra_colores}"
 echo ""
-echo -e "${verde} Diseñado por sukigsx / Contacto:   sukigsx.mbsistemas@gmail.com${borra_colores}"
+echo -e "${verde} Diseñado por sukigsx / Contacto:   scripts@mbbsistemas.es${borra_colores}"
 echo -e "${verde}                                    https://repositorio.mbbsistemas.es/${borra_colores}"
 echo ""
-echo -e "${verde} Nombre del script < inicio.sukigsx.sh > Organiza ficheros por ext.  ${borra_colores}"
+echo -e "${verde} Nombre del script < $? > Organiza por ext de ficheros.  ${borra_colores}"
 echo ""
 echo -e "${verde} Le indicas la ruta donde tienes los ficheros a organizar.  ${borra_colores}"
 echo -e "${verde} Le indicas la ruta de destino que puede ser la misma.  ${borra_colores}"
