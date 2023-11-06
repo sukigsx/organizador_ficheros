@@ -122,6 +122,7 @@ else
 fi
 
 sleep 2
+clear
 wmctrl -r :ACTIVE: -b add,maximized_vert,maximized_horz
 echo -e "${rosa}"; figlet -c sukigsx; echo -e "${borra_colores}"
 echo ""
