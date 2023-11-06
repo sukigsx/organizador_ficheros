@@ -172,6 +172,9 @@ find "$dir_origen" -type f | while read -r file; do
 done
 
 echo ""
-echo -e "${verde} Archivos movidos exitosamente de $dir_origen a $dir_destino.${borra_colores}"
+echo -e " Archivos copiados y organizados exitosamente.${borra_colores}"
 echo ""
-
+echo -e " Los ficheros originales estan en ${verde}$dir_origen.${borra_colores}"
+echo -e " Y los organizados en ${verde}$dir_destino.${borra_colores}"
+echo ""
+exit
