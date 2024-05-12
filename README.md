@@ -15,7 +15,11 @@ El usuario proporciona dos directorios: uno como directorio de origen (dir_orige
 Muestra mensajes informativos y de estado durante la ejecución del script, indicando si la conexión a Internet está activa, si el software necesario está instalado y si los archivos se han organizado correctamente. Finalmente, muestra los directorios de origen y destino y termina la ejecución.
 
 # Instalacion
-Clonar repositorio con el siguiente comando
-git clone https://github.com/sukigsx/organizador_ficheros.git
+Clonar repositorio con el siguiente comando:
 
+    git clone https://github.com/sukigsx/organizador_ficheros.git
+Tambien puedes utilizar mi script (ejecutar_escripts), en el cual puedes instalar todos mis script del repositorio.
+
+    git clone https://github.com/sukigsx/ejecutar_scripts.git
+# Espero od guste !!!!!!
 # Espero os guste !!!!
