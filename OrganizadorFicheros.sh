@@ -104,6 +104,7 @@ actualizar_script(){
         echo ""
         echo -e "${amarillo} El script se ha actualizado, es necesario cargarlo de nuevo.${borra_colores}"
         echo ""
+        software="SI"
         sleep 2
         exit
     fi
