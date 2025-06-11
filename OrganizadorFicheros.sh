@@ -30,8 +30,7 @@ DireccionGithub="https://github.com/sukigsx/organizador_ficheros" #contiene la d
         [git]="git"
         [nano]="nano"
         [curl]="curl"
-        [konsole]="konsole"
-        [getfacl]="acl"
+        [diff]="diff"
     )
 
 
