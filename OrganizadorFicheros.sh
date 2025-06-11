@@ -104,7 +104,6 @@ actualizar_script(){
         echo ""
         echo -e "${amarillo} El script se ha actualizado, es necesario cargarlo de nuevo.${borra_colores}"
         echo ""
-        software="SI"
         sleep 2
         exit
     fi
@@ -151,6 +150,7 @@ for comando in "${!requeridos[@]}"; do
 
     echo ""
     echo -e "${azul} Todo el software ${verde}OK${borra_colores}"
+    software="SI"
     sleep 2
 }
 
