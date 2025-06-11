@@ -8,8 +8,8 @@
 
 export NombreScript="OrganizadorFicheros"
 export DescripcionDelScript="Herramienta para organizar ficheros segun la extension del mismo"
-export Correo="este es el correo"
-export Web="esta es la web"
+export Correo="scripts@mbbsistemas.es"
+export Web="repositorio.mbbsistemas.es"
 export version="1.0"
 conexion="Sin comprobar"
 software="Sin comprobar"

@@ -6,20 +6,41 @@
 * Contacto: scripts@mbbsistemas.es
 *********************************************
 
-Este script es útil para organizar archivos por tipo en diferentes carpetas dentro de un directorio de destino, facilitando la gestión y clasificación de los archivos.
+Este script es útil para organizar archivos por tipo de extension en diferentes carpetas dentro de un directorio de destino, facilitando la gestión y clasificación de los archivos.
 
-## Organización de archivos
-El usuario proporciona dos directorios: uno como directorio de origen (dir_origen) y otro como directorio de destino (dir_destino). El script recorre todos los archivos en el directorio de origen y sus subdirectorios. Para cada archivo, obtiene su extensión, crea una carpeta con esa extensión en el directorio de destino si no existe, y luego copia el archivo a esa carpeta.
+# Resumen funcional del script `OrganizadorFicheros`
 
-## Mensajes y salida
-Muestra mensajes informativos y de estado durante la ejecución del script, indicando si la conexión a Internet está activa, si el software necesario está instalado y si los archivos se han organizado correctamente. Finalmente, muestra los directorios de origen y destino y termina la ejecución.
+## Presentación inicial
+- Muestra una pantalla con:
+  - **Nombre** del script
+  - **Descripción**
+  - **Versión**
+  - **Autoría**
+  - **Estado** de conexión / actualización
 
-# Instalacion
-Clonar repositorio con el siguiente comando:
+---
 
-    git clone https://github.com/sukigsx/organizador_ficheros.git
-Tambien puedes utilizar mi script (ejecutar_escripts), en el cual puedes instalar todos mis script del repositorio.
+## Comprobaciones previas
 
-    git clone https://github.com/sukigsx/ejecutar_scripts.git
-# Espero od guste !!!!!!
-# Espero os guste !!!!
+### 1. Conexión a Internet
+- Verifica si hay red disponible antes de continuar.
+
+### 2. Actualización automática
+- Si dispone de conexión, clona su propio repositorio de GitHub.
+- Se reemplaza a sí mismo si detecta una versión más reciente.
+
+### 3. Software imprescindible
+- Comprueba que existan las siguientes herramientas: `git`, `curl`, `diff`, `ping`, `nano`, `find`.
+- Si falta alguna, intenta instalarla con `apt`.
+
+---
+
+## Modo de uso flexible
+El script acepta **cuatro parámetros** en línea de comandos:
+
+| Parámetro           | Descripción                                               | Ejemplo                           |
+|---------------------|-----------------------------------------------------------|-----------------------------------|
+| `ruta_origen`       | Carpeta a escanear                                        | `/home/usuario/Descargas`         |
+| `ruta_destino`      | Carpeta donde se ordenará                                 | `/home/usuario/Ordenado`          |
+| `copiar` \| `mover` | Acción sobre los archivos                                 | `mover`                           |
+| `borrar_si` \| `borrar_no`| Eliminar o conservar la carpeta de origen           | `borrar_si`                       |
