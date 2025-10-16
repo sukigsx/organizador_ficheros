@@ -44,3 +44,16 @@ El script acepta **cuatro parámetros** en línea de comandos:
 | `ruta_destino`      | Carpeta donde se ordenará                                 | `/home/usuario/Ordenado`          |
 | `copiar` \| `mover` | Acción sobre los archivos                                 | `mover`                           |
 | `borrar_si` \| `borrar_no`| Eliminar o conservar la carpeta de origen           | `borrar_si`                       |
+
+## Instalacion  
+Clonar el repositorio y ejecutar OrganizadorFicheros.sh
+
+```  
+git clone https://github.com/sukigsx/organizador_ficheros.git
+```
+
+Tambien puedes utilizar mi script (ejecutar_scripts).
+
+```  
+git clone https://github.com/sukigsx/ejecutar_scripts.git  
+```
