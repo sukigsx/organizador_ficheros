@@ -53,7 +53,7 @@ clear
 echo ""
 echo -e "${azul} GRACIAS POR UTILIZAR MI SCRIPT${borra_colores}"
 echo ""
-sleep 4
+sleep 1
 exit
 }
 
@@ -175,17 +175,6 @@ else
     echo -e " Conexion a internet = ${rojo}NO${borra_colores}"
 fi
 }
-
-#toma el control al pulsar control + c
-#trap ctrl_c INT
-#function ctrl_c()
-#{
-#clear
-#echo ""
-#echo -e "${verde} GRACIAS POR UTILIZAR MI SCRIPT${borra_colores}"
-#echo ""
-#exit
-#}
 
 
 DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
