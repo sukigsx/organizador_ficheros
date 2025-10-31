@@ -177,15 +177,15 @@ fi
 }
 
 #toma el control al pulsar control + c
-trap ctrl_c INT
-function ctrl_c()
-{
-clear
-echo ""
-echo -e "${verde} GRACIAS POR UTILIZAR MI SCRIPT${borra_colores}"
-echo ""
-exit
-}
+#trap ctrl_c INT
+#function ctrl_c()
+#{
+#clear
+#echo ""
+#echo -e "${verde} GRACIAS POR UTILIZAR MI SCRIPT${borra_colores}"
+#echo ""
+#exit
+#}
 
 
 DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
