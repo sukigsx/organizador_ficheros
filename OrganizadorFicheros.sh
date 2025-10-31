@@ -312,6 +312,7 @@ organizar_archivos() {
 
     echo -e " ✅ ${verde}Organización completada con éxito.${borra_colores}"
     echo ""
+    read pause
 }
 
 # === Lógica principal ===
