@@ -53,7 +53,7 @@ clear
 echo ""
 echo -e "${azul} GRACIAS POR UTILIZAR MI SCRIPT${borra_colores}"
 echo ""
-sleep 1
+sleep 4
 exit
 }
 
