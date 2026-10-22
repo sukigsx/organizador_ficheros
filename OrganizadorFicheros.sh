@@ -40,7 +40,6 @@ requeridos=(
         [nano]="nano/nano/nanao"
         [curl]="curl/curl/curl"
         [find]="findutils/findutils/findutils"
-        [popo]="findu"
 )
 ###########################
 ## FUNCIONES PRINCIPALES ##
