@@ -443,7 +443,7 @@ organizar_archivos() {
 #        no=Ya sale solo desde la funcion
 
 
-#logica de inicio
+#logica de inicioooo
 clear
 menu_info
 conexion
