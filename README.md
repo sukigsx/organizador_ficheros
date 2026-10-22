@@ -51,7 +51,10 @@ Clonar el repositorio y ejecutar OrganizadorFicheros.sh
 ```  
 git clone https://github.com/sukigsx/organizador_ficheros.git
 ```
-
+Descarga directa con WGET 
+```
+wget -O OrganizadorFicheros.sh https://raw.githubusercontent.com/sukigsx/organizador_ficheros/refs/heads/main/OrganizadorFicheros.sh && chmod +x OrganizadorFicheros.sh
+```
 Tambien puedes utilizar mi script (ejecutar_scripts).
 
 ```  
